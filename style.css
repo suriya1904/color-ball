@@ -1,0 +1,21 @@
+div{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    opacity: 1;
+}
+div:hover{
+    opacity: 0.6;
+    transition: opacity 500ms ease-out;
+}
+@keyframes jump {
+    from{
+        
+    }
+    to{
+
+    }
+}
