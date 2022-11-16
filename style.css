@@ -6,16 +6,23 @@ div{
     margin-top: 10rem;
     margin-left: 10rem;
     opacity: 1;
+    position: relative;
+    top: 0;
+    display: block;
+    animation: jump 3s infinite;
 }
 div:hover{
     opacity: 0.6;
     transition: opacity 500ms ease-out;
 }
 @keyframes jump {
-    from{
-        
+    0%{
+        top : 0;
     }
-    to{
-
+    50%{
+        top: 100px;
+    }
+    100%{
+        top: 0;
     }
 }
